@@ -31,11 +31,12 @@ python3 main.py <limit>
 ## Deployed serverless cloud function
 - To run the serverless function without any setup, the serverless function is deployed into Google Cloud functions.
 - Visit (https://us-central1-serverless-peerprep.cloudfunctions.net/populate_ques_peerprep?limit=30) to invoke the function from the cloud and feel free to change the limit.
+- NOTE: the serverless function is set to timeout after 1200s.
 
 
 ### viewing the results (deployed app)
 
-The easiest way to view the results is to go to our [deployed app](http://g15-peerprep.ap-southeast-1.elasticbeanstalk.com/) and signup and login accordingly.
+- The easiest way to view the results is to go to our [deployed app](http://g15-peerprep.ap-southeast-1.elasticbeanstalk.com/) and signup and login accordingly.
 - the home page houses all the questions and updates will be visible after refreshing the page.
 
 
